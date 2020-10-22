@@ -55,7 +55,6 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     }
 });
 
-
 function nextPlayer() {
     //Next player
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
